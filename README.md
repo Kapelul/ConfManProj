@@ -56,4 +56,4 @@ Ajamisen onnistumisen voi tarkistaa *curl localhost* komennolla, ja lopputulokse
 
 ![done](https://github.com/Kapelul/ConfManProj/assets/165004665/b05f8be0-0b09-4548-b262-118dcd40f03b)
 
-
+Pidempi asennusprossi [H7](https://github.com/Kapelul/palvelin-course/blob/main/h7.md)
