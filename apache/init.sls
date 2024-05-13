@@ -13,12 +13,20 @@ apache2:
     - require:
       - pkg: apache2
 
-/etc/apache/sites-enabled/000-default.conf:
+/etc/apache2/sites-enabled/000-default.conf:
   file.absent
+
+/home/vagrant/examplewww/:
+  file.directory
 
 /home/vagrant/examplewww/index.html:
   file.managed:
     - source: "salt://apache/index.html
+    - require:
+      - file: /home/vagrant/examplewww/
 
 apache2.service:
-  service.running
+  service.running:
+    - watch:
+      - file: /home/vagrant/examplewww/index.html
+
