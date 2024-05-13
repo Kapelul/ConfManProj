@@ -12,5 +12,9 @@ apache2:
 /etc/apache/sites-enabled/000-default.conf:
   file.absent
 
+/home/vagrant/examplewww/index.html:
+  file.managed:
+    - source: "salt://apache/index.html
+
 apache2.service:
   service.running
