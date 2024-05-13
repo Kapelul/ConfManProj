@@ -23,12 +23,15 @@ apache2:
 
 /home/vagrant/examplewww/:
   file.directory:
-    - mode: 755
+    - user: vagrant
+    - group: vagrant
+    - dir_mode: "0755"
+    - file_mode: "0755"
+    - makedirs: true
 
 /home/vagrant/examplewww/index.html:
   file.managed:
     - source: "salt://apache/index.html"
-    - mode: 755
 
 apache2.service:
   service.running:
