@@ -6,14 +6,12 @@ apache2:
     - source: "salt://apache/example.conf"
     - require:
       - pkg: apache2
-    - mode: 755
 
 /etc/apache2/sites-enabled/example.conf:
   file.symlink:
     - target: "/etc/apache2/sites-available/example.conf"
     - require:
       - pkg: apache2
-    - mode: 755
 
 /etc/apache2/sites-enabled/000-default.conf:
   file.absent
@@ -25,9 +23,7 @@ apache2:
   file.directory:
     - user: vagrant
     - group: vagrant
-    - dir_mode: "0755"
-    - file_mode: "0755"
-    - makedirs: true
+    - mode: "0755"
 
 /home/vagrant/examplewww/index.html:
   file.managed:
