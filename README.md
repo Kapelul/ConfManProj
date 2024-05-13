@@ -1,2 +1,6 @@
-# ConfManProj
-Project for configuration management course H7
+# Palvelinten hallinta miniproju
+
+Tässä on kurssin palvelinten hallinta miniprojekti loppuun. 
+
+
+
