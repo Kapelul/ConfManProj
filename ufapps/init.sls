@@ -1,4 +1,8 @@
-pkg.installed:
-  - curl
-  - git
-  - micro
+curl:
+  pkg.installed
+
+micro:
+  pkg.installed
+
+git:
+  pkg.installed
