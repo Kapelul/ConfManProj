@@ -4,10 +4,14 @@ apache2:
 /etc/apache2/sites-available/example.conf:
   file.managed:
     - source: "salt://apache/example.conf"
+    - require:
+      - pkg: apache2
 
 /etc/apache2/sites-enabled/example.conf:
   file.symlink:
     - target: "/etc/apache2/sites-available/example.conf"
+    - require:
+      - pkg: apache2
 
 /etc/apache/sites-enabled/000-default.conf:
   file.absent
