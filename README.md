@@ -28,7 +28,7 @@ Tämän varaston kloonaamiseen tarvitaan myös git, ja tilojen ajamiseen Salt.
 sudo apt install -y git
 sudo apt install -y salt-minion
 ```
-Kun tarvittavat paketit on asennettu, kloonaaminen tapahtuu painamalla tämän varaston etusivulla olevaa <CODE> painiketta ja kopioimalla sieltä HTTPS url.
+Kun tarvittavat paketit on asennettu, kloonaaminen tapahtuu painamalla tämän varaston etusivulla olevaa **CODE** painiketta ja kopioimalla sieltä HTTPS url.
 ```
 git clone https://github.com/Kapelul/ConfManProj.git
 ```
