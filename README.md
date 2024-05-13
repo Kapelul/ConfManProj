@@ -4,6 +4,8 @@ Tässä on kurssin palvelinten hallinta miniprojekti. Kurssia opetti Tero Karvin
 
 Tehnyt Kasperi Lahti
 
+GPL 3.0 lisenssi
+
 Moduulin tarkoitus on laittaa nopeasti ja helposti webpalvelimen testi/kehitysympäristö. Se asettaa myös *home* kansioon www/html tiedoston.
 
 Moduuli sisältää:
