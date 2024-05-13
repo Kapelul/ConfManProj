@@ -28,6 +28,9 @@ apache2:
 /home/vagrant/examplewww/index.html:
   file.managed:
     - source: "salt://apache/index.html"
+    - user: vagrant
+    - group: vagrant
+    - mode: "0755"
 
 apache2.service:
   service.running:
