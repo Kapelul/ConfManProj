@@ -1,6 +1,8 @@
 # Palvelinten hallinta miniproju
 
-Tässä on kurssin palvelinten hallinta miniprojekti loppuun. 
+Tässä on kurssin palvelinten hallinta miniprojekti. Kurssia opetti Tero Karvinen.
+
+Tehnyt Kasperi Lahti
 
 Moduulin tarkoitus on laittaa nopeasti ja helposti webpalvelimen testi/kehitysympäristö. Se asettaa myös *home* kansioon www/html tiedoston.
 
@@ -54,6 +56,7 @@ Tähti tarkoittaa, että se asentaa siis kaikille orja-koneille, voit myös lait
 
 Ajamisen onnistumisen voi tarkistaa *curl localhost* komennolla, ja lopputuloksen pitäisi näkyä kuvan mukaiselta:
 
-![done](https://github.com/Kapelul/ConfManProj/assets/165004665/b05f8be0-0b09-4548-b262-118dcd40f03b)
+![done](https://github.com/Kapelul/ConfManProj/assets/165004665/51897bd3-2d66-48df-8e91-d29a55776b64)
 
-Pidempi asennusprossi [H7](https://github.com/Kapelul/palvelin-course/blob/main/h7.md)
+
+Asennusprosessi [H7](https://github.com/Kapelul/palvelin-course/blob/main/h7.md)
