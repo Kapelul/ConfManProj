@@ -21,12 +21,10 @@ apache2:
 
 /home/vagrant/examplewww/index.html:
   file.managed:
-    - source: "salt://apache/index.html
-    - require:
-      - file: /home/vagrant/examplewww/
+    - source: "salt://apache/index.html"
 
 apache2.service:
   service.running:
     - watch:
-      - file: /home/vagrant/examplewww/index.html
+      - file: /etc/apache2/sites-available/example.conf
 
