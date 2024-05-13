@@ -18,7 +18,7 @@ Apachelle on oma tilatiedostonsa ja konfiguraatiotiedostot, muut hyödylliset pa
 
 Projektin toteutin ja testasin itse vagrantin kautta debian/bullseye64 ympäristössä. 
 
-Yksinkertaisimmin asennus tapahtuu kloonaamalla tämä varasto vaikkapa /home/<USER>/salt/ kansioon. Ensimmäisenä kannattaa/täytyy tehdä kuitenkin pakettivarastojen päivitys.
+Yksinkertaisimmin asennus tapahtuu kloonaamalla tämä varasto vaikkapa /home/USER/salt/ kansioon. Ensimmäisenä kannattaa/täytyy tehdä kuitenkin pakettivarastojen päivitys.
 ```
 sudo apt-get update
 sudo apt-get upgrade
